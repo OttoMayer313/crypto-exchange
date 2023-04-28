@@ -1,0 +1,58 @@
+{
+  "name": "crypto-exchange",
+  "version": "3.0.2",
+  "description": "Pulls together list of crypto exchanges to interact with their API's in a uniform fashion.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "./update-version.js && git add -A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottomayer313/crypto-exchange.git"
+  },
+  "keywords": [
+    "crypto",
+    "exchange",
+    "api",
+    "bitcoin",
+    "altcoin",
+    "library",
+    "bittrex",
+    "btc-e",
+    "gdax",
+    "gemini",
+    "kraken",
+    "liqui",
+    "poloniex",
+    "yunbi"
+  ],
+  "author": "Noah Passalacqua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ottomayer313/crypto-exchange/issues"
+  },
+  "homepage": "https://github.com/ottomayer313/crypto-exchange#readme",
+  "dependencies": {
+    "binance-api-node": "^0.7.4",
+    "bitfinex": "^1.0.3",
+    "bitstamp": "^1.0.1",
+    "coinbase": "^2.0.6",
+    "gdax": "^0.4.2",
+    "gemini-api": "github:ottomayer313/gemini-api-node#deposit-address",
+    "kraken-api": "^0.1.7",
+    "lodash": "^4.17.4",
+    "node.bittrex.api": "^0.3.3",
+    "node.liqui.io": "^1.1.0",
+    "poloniex-api-node": "^1.3.1",
+    "prepend-file": "^1.3.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "yunbi-api-module": "^1.0.4"
+  },
+  "devDependencies": {
+    "should": "^13.2.1",
+    "mocha": "*"
+  }
+}
